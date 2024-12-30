@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Sayang!</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h2>❤️ For You</h2>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#memories">Gallery</a>
+                <a href="#gift">Gift</a>
+            </div>
+            <div class="hamburger">☰</div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Happy Sweet Seventeen Intann❤️</h1>
+            <p>Made with love for special person</p>
+            <a href="#memories" class="btn">Lets start the Journey!!</a>
+        </div>
+    </section>
+
+    <section id="memories" class="section">
+        <h2 data-aos="fade-up">Journey</h2>
+        <div class="memory-grid">
+            <div class="memory-card" data-aos="fade-up">
+                <img src="galeri/img3.jpg" alt="Kenangan 1">
+                <div class="memory-card-content">
+                    <h3>Chapter 3</h3>
+                    <p>Dari kecil udahh mantai banget anaknya tuhh</p>
+                </div>
+            </div>
+            <div class="memory-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="galeri/img1.jpg" alt="Kenangan 2">
+                <div class="memory-card-content">
+                    <h3>Chapter 10</h3>
+                    <p>AHAHAHAA GEMESS BANGETT EMOT🫰🏻🫰🏻</p>
+                </div>
+            </div>
+            <div class="memory-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="galeri/img2.jpg" alt="Kenangan 3">
+                <div class="memory-card-content">
+                    <h3>Chapter 17!!</h3>
+                    <p>Dan ini dia sekarang, udah mulai dewasa ges udah secantik inii</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gift">
+        <div class="gift-container" data-aos="fade-up">
+            <h2>Little Gift For You! 🎁</h2>
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="letter">
+                        <p>❤️ Happy Birthday Intan! 🎉</p>
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <h3>Happy Birthday Intan! 🎉</h3>
+                <p>Di ulang tahunmu yang ke-17 ini, aku berharap kamu selalu diberkahi kebahagiaan, kesehatan, dan kesuksesan. Teruslah menjadi pribadi yang ceria dan bersemangat. Semoga semua impianmu dapat terwujud.</p>
+                <p>Selamat ulang tahun, semoga tahun ini membawa lebih banyak kebahagiaan dan pencapaian baru untukmu! 🎂✨</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="music-player">
+        <button id="playPauseBtn">
+            <i class="fas fa-play" id="playPauseIcon"></i>
+        </button>
+        <div class="music-info">
+            <span class="song-title">Song for you!!!</span>
+            <input type="range" class="volume-control" min="0" max="100" value="50" id="volumeSlider">
+        </div>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="song/song1.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
