@@ -69,7 +69,7 @@ nav {
 /* Media query untuk mengganti background image */
 @media (max-width: 768px) {
     .hero {
-        background: url('galeri/img5.jpg') center/cover;
+        background: url('galeri/img6.jpg') center/cover;
     }
 }
 
