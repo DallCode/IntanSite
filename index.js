@@ -82,7 +82,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 document.querySelector("#envelope").addEventListener("click", function () {
-    if (!this.classList.contains("opened")) {
-        this.classList.add("opened");
-    }
+    this.classList.toggle("opened"); // Use toggle for cleaner code
 });
